@@ -1,61 +1,74 @@
-# Weak-password-crawling-of-cheat-website-orders
+明白了，这里给你整理好 **完整可用的 README.md 内容**，你直接复制整个文本到 `README.md` 文件里即可：
 
-## 项目介绍 / Project Introduction
+````markdown
+# 🔑 Weak-password-crawling-of-cheat-website-orders
 
-这是一个用于爬取外挂网站订单数据的GUI工具，支持通过QQ号码查询订单信息。
+## 📖 项目介绍 / Project Introduction
 
-This is a GUI tool for crawling order data from cheat websites, supporting querying order information via QQ numbers.
+这是一个简单的爬虫工具，用于爬取外挂网站订单信息。  
+This is a simple crawler tool for crawling orders from cheat websites.  
+````
+**绝对不是为了白嫖外挂网站订单**
+这个小工具的灵感来自一些外挂网站的下单机制：  
+在下单时会强制填写 QQ 号，有的人图省事，就用类似 `111` 这样的弱口令。  
+本项目通过简单的 GUI + 爬虫逻辑，模拟用户查询订单。  
 
-## 功能特性 / Features
+后续会加入：  
+- 内置弱口令字典（用于演示弱口令风险，非实际攻击）  
+- 自动排查最新订单的功能  
 
-- 支持自定义查询URL
-- 模拟人类操作行为（随机延迟）
-- 完整的请求头模拟
-- 响应式GUI界面
+👉 **"千万不要用他来白嫖别人花钱买的外挂"**外挂本身就是违法的  
+This project is for **research and learning only**. Do **not** use it to grab or exploit real orders. Cheating tools are illegal.
 
-- Supports custom query URLs
-- Simulates human operation behavior (random delays)
-- Complete request header simulation
-- Responsive GUI interface
+---
 
-## 技术栈 / Technology Stack
+## ✨ 功能特性 / Features
 
-- Python 3
-- CustomTkinter (现代GUI框架 / Modern GUI framework)
-- Requests (HTTP请求库 / HTTP requests library)
-- BeautifulSoup4 (HTML解析库 / HTML parsing library)
+- 🔗 自定义查询 URL / Custom query URLs  
+- ⏳ 模拟人类行为（随机延迟） / Human-like random delays  
+- 🛡️ 请求头伪装 / Simulated HTTP headers  
+- 🖥️ 响应式 GUI / Responsive GUI interface  
 
-## 安装指南 / Installation(嫌麻烦直接下载exe文件完美运行)
+---
+
+## 📥 安装 / Installation
 
 1. 克隆仓库 / Clone repository:
-```bash
-git clone https://github.com/your-repo/Weak-password-crawling-of-cheat-website-orders.git
-```
+   ```bash
+   git clone https://github.com/your-repo/Weak-password-crawling-of-cheat-website-orders.git
+   cd Weak-password-crawling-of-cheat-website-orders
+````
 
 2. 安装依赖 / Install dependencies:
-```bash
-pip install -r requirements.txt
-```
 
-3. 运行程序 / Run the program:
-```bash
-python 爬取外挂网站订单GUI.py
-```
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-## 使用说明 / Usage
+3. 运行程序 / Run:
 
-1. 输入要查询的QQ号码
-2. (可选) 输入页码和自定义URL
-3. 点击"查询"按钮
-4. 查看结果显示区域
+   ```bash
+   python 爬取外挂网站订单GUI.py
+   ```
 
-1. Enter the QQ number to query
-2. (Optional) Enter page number and custom URL
-3. Click the "Query" button
-4. View results in the display area
+💡 懒得折腾？可以直接下载编译好的 **exe** 文件运行。
 
-## 免责声明 / Disclaimer
+---
 
-本项目仅用于学习和技术研究目的，请遵守相关法律法规。
+## 🚀 使用方法 / Usage
 
-This project is for learning and technical research purposes only, please comply with relevant laws and regulations.
+1. 输入要查询的 QQ 号码
+2. （可选）输入页码和自定义 URL
+3. 点击 **查询** 按钮
+4. 在结果窗口查看订单信息
+
+---
+
+## ⚠️ 免责(甩锅)声明 / Disclaimer
+
+* 本项目仅供 **学习、研究与演示弱口令风险** 之用。
+* 请勿用于任何非法用途，否则后果自负。
+* 作者不对任何滥用行为负责。
+
+This project is for **educational purposes only**.
+Do not misuse it. The author takes **no responsibility** for illegal uses.
