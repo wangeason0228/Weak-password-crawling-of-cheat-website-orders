@@ -1,13 +1,12 @@
-明白了，这里给你整理好 **完整可用的 README.md 内容**，你直接复制整个文本到 `README.md` 文件里即可：
 
-````markdown
 # 🔑 Weak-password-crawling-of-cheat-website-orders
 
 ## 📖 项目介绍 / Project Introduction
 
 这是一个简单的爬虫工具，用于爬取外挂网站订单信息。  
 This is a simple crawler tool for crawling orders from cheat websites.  
-````
+
+
 **绝对不是为了白嫖外挂网站订单**
 这个小工具的灵感来自一些外挂网站的下单机制：  
 在下单时会强制填写 QQ 号，有的人图省事，就用类似 `111` 这样的弱口令。  
@@ -37,7 +36,6 @@ This project is for **research and learning only**. Do **not** use it to grab or
    ```bash
    git clone https://github.com/your-repo/Weak-password-crawling-of-cheat-website-orders.git
    cd Weak-password-crawling-of-cheat-website-orders
-````
 
 2. 安装依赖 / Install dependencies:
 
